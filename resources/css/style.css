@@ -1,0 +1,154 @@
+html{
+  font-size: 18px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.container{
+  width: 100%;
+}
+
+.header-wrapper,
+.banner-content-wrapper,
+.navigation-wrapper,
+.main-content,
+.about-info,
+.footer-content{
+  width: 960px;
+  margin: 0px auto;
+}
+
+.header{
+  background-color: #000;
+  color: #fff;
+}
+
+    .header-wrapper{
+      display: flex;
+    }
+
+    .header-wrapper img{
+      height: 1.5rem;
+      margin: 0.66rem 1rem 0.66rem 0.5rem;
+    }
+
+    .brand{
+      display: inline-block;
+      margin: 0.66rem 0;
+      font-size: 1rem;
+    }
+
+
+.banner{
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+  .banner-content-wrapper{
+    padding-top: 9rem;
+  }
+
+    .banner-content{
+      width: 20rem;
+      background-color: #000;
+      color: #fff;
+      padding: 2rem 3rem;
+      font-weight: bold;
+
+    }
+
+    .banner-content p{
+      font-size: 1rem;
+    }
+
+    .banner-content h1{
+      font-size: 2rem;
+      margin-top: 0.25rem;
+    }
+
+.navigation{
+  background-color: fireBrick;
+  color: #fff;
+  height: 2.5rem;
+}
+
+    ul{
+      margin: 0px auto;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    ul li{
+      list-style: none;
+      display: inline-block;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+
+    ul li a{
+      color: #fff;
+      text-decoration: none;
+
+    }
+
+
+    .featured-items{
+      display: flex;
+      justify-content: space-between;
+    }
+        .featured-item{
+          border: 4px solid #000;
+          flex-basis: 30%;
+          margin-top: 3rem;
+          margin-bottom: 3rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+            .featured-item img{
+              height: 9rem;
+              margin: 2rem auto;
+            }
+
+            .featured-item .caption{
+              background-color: #000;
+              color: #fff;
+              padding-top: 0.5rem;
+              padding-bottom: 0.5rem;
+              text-align: center;
+              margin-top: 2rem;
+              width: 100%;
+            }
+
+.about-info{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+    .aboutInfo-location,
+    .aboutInfo-hours{
+      flex-basis: 35%;
+    }
+
+    .about-info .caption{
+      background-color: #000;
+      color: #fff;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 2rem;
+      text-align: left;
+      margin-top: 3rem;
+      margin-bottom: 0.25rem;
+    }
+
+.footer{
+  height: 5rem;
+  line-height: 5rem;
+  background-color: #000;
+  text-align: left;
+  color: #fff;
+}
